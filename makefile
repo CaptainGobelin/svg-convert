@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-Wall
+CFLAGS=-Wall -std=c++11
 LDFLAGS=-lsfml-graphics -lsfml-window -lsfml-system -Wall
 EXEC=convert
 OBJ=main.o
